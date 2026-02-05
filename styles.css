@@ -6,13 +6,13 @@ body {
 }
 
 body {
-    cursor: url('images/hellokitty bow.cur'), auto;
+  
+    cursor: url('http://www.rw-designer.com/cursor-set/hello-kitty-4'), auto;
 }
 
 a:hover {
-    cursor: pointer;
+    cursor: url('http://www.rw-designer.com/cursor-set/hello-kitty-4'), pointer;
 }
-
 
 h1 {
   color: rgb(0, 0, 0);
