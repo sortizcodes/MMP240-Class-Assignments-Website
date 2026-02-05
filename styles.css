@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(255, 244, 220);
+  background-color: rgb(225, 225, 225);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
 }
 
 h1 {
