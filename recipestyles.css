@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(255, 244, 192);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+img {
+  max-width: 300px;
+  height: auto;   
+  border-radius: 10px;
+
+}
