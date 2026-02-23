@@ -10,7 +10,7 @@ html {
 
 @font-face {
   font-family: 'Aller';
-  src: url('fonts/Aller-Light.woff2') format('woff2');
+  src: url('../fonts/Aller-Light.woff2') format('woff2');
   font-weight: lighter;
   font-style: normal;
   font-display: swap;
@@ -18,7 +18,7 @@ html {
 
 @font-face {
   font-family: 'Aller';
-  src: url('fonts/Aller.woff2') format('woff2');
+  src: url('../fonts/Aller.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -26,7 +26,7 @@ html {
 
 @font-face {
   font-family: 'Aller';
-  src: url('fonts/Aller-Bold.woff2') format('woff2');
+  src: url('../fonts/Aller-Bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
