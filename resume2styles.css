@@ -1,67 +1,82 @@
-body {
-  background-color: rgb(225, 225, 225);
-  font-family: "Aller", Aller-Bold, Aller-Light;
 
-}
- main {font-size:2rem}
-
-h1 {color:rgb(26, 26, 26);
-font-family: Georgia, serif;}
-h2 {color:rgb(161, 2, 87);}
-h3 {color:rgb(2, 53, 208) 
-font-style italic;}
-h4 {color:rgb(252, 108, 216);}
-
-
-h1 {
-  background-color: #f1f1f1;
-  text-align: center;
-  padding: 10px;
+html {
+  font-size: 62.5%;
+  box-sizing:border-box;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 @font-face {
   font-family: 'Aller';
-  src: url('fonts/Aller.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Aller-Bold';
-  src: url('fonts/Aller-Bold.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Aller-Light';
   src: url('fonts/Aller-Light.woff2') format('woff2');
   font-weight: lighter;
   font-style: normal;
   font-display: swap;
 }
 
-
-
-html {
-  font-size: 3rem;
+@font-face {
+  font-family: 'Aller';
+  src: url('fonts/Aller.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
+@font-face {
+  font-family: 'Aller';
+  src: url('fonts/Aller-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 
-html {font-size:62.5%;
-         box-sizing:border-box;}
+body {
+  background-color: rgb(225, 225, 225);
+   font-family: 'Aller', sans-serif;
 
+}
 
-         *, *::before, *::after {box-sizing:inherit}
+main {
+  font-size: 2rem;
+  padding: 2rem;
+}
 
-         address {display:flex;
-          flex-direction: row;
-          background-color: #F4F4F4;
-          justify-content: center;
-          background-color: bisque;}
-        
-        
-  
+h1 {
+  color: rgb(26, 26, 26);
+  font-weight: normal;
+  font-size: 3.2rem;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+}
+
+h2 {
+  color: rgb(161, 2, 87);
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+h3 {
+  color: rgb(2, 53, 208);
+  font-style: lighter;
+  font-weight: 400;
+  font-size: 1.8rem;
+  font-style: italic;
+}
+
+h4 {
+  color: rgb(252, 108, 216);
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: bisque;
+  padding: 1rem;
+}
