@@ -9,7 +9,7 @@ body {
   
     cursor: url('http://www.rw-designer.com/cursor-set/hello-kitty-4'), auto;
     background-image: url("hearts-valentines.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 
 }
